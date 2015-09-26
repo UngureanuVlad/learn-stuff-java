@@ -20,7 +20,7 @@ public class NonGenericsExample {
 		// for (Integer value : rawList){
 		for (Object value : rawList){
 			if (value.getClass().equals(java.lang.Integer.class)){
-				System.out.println("An integer:q " + value);
+				System.out.println("An integer: " + value);
 			} else {
 				System.out.println("Not an integer: " + value);
 			}
