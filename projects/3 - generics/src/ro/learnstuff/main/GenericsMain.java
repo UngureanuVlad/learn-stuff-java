@@ -12,22 +12,22 @@ public class GenericsMain {
 
 		NonGenericsExample.ilustrateNonGenericsBehaviour();
 		showLine();
-		
+
 		GenericsTypeExample.ilustrateGenericType();
 		showLine();
-		
+
 		GenericsMethodExample.ilustrateGenericMethod();
 		showLine();
-		
+
 		GenericsClassExample.ilustrateGenericClass();
 		showLine();
-		
+
 		GenericsUpperBoundExample.illustrateUpperBounds();
 		showLine();
 	}
-	
+
 	// helper method
-		private static void showLine(){
-			System.out.println("=========================================================");
-		}
+	private static void showLine() {
+		System.out.println("=========================================================");
+	}
 }
