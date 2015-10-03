@@ -12,10 +12,8 @@ public class TreeExamples {
 		tree.add(34);
 		tree.add(45);
 
-		// here it test it's sorted, 63 is the last element. see output below
 		Iterator<Integer> iterator = tree.iterator();
 	 
-		// Displaying the Tree set data
 		while (iterator.hasNext()) {
 			System.out.print(iterator.next() + " ");
 		}
