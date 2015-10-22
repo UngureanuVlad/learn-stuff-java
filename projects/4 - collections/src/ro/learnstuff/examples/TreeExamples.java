@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 public class TreeExamples {
-	public static void illustrateTreeSet(){
+	public void illustrateTreeSet(){
 		TreeSet<Integer> tree = new TreeSet<Integer>();
 		tree.add(12);
 		tree.add(63);

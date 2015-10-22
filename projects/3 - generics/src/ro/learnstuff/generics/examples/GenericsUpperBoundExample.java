@@ -7,7 +7,7 @@ import ro.learnstuff.generics.classes.GenericUpperBoundMethod;
 
 public class GenericsUpperBoundExample {
 
-	public static void illustrateUpperBounds(){
+	public void illustrateUpperBounds(){
 		List<String> stringList = new ArrayList<>();
 		List<Integer> integerList = new ArrayList<>();
 		List<Double> doubleList = new ArrayList<>();

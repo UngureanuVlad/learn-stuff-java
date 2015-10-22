@@ -9,7 +9,7 @@ import ro.learnstuff.model.Student;
 
 public class ListExamples {
 
-	public static void ilustrateArrayList() {
+	public void ilustrateArrayList() {
 		List<String> stringList = new ArrayList<String>();
 		stringList.add("One");
 		stringList.add(0, "Zero");
@@ -29,7 +29,7 @@ public class ListExamples {
 		interateThroughStringList(stringList);
 	}
 	
-	public static void ilustrateLinkedList(){
+	public void ilustrateLinkedList(){
 		List<Student> studentList = new LinkedList<>();
 		studentList.add(new Student("Ungureanu", "Vlad", 5));
 		studentList.add(new Student("POpescu", "Ion", 3));
@@ -43,13 +43,13 @@ public class ListExamples {
 		interateThroughStudentList(studentList);
 	}
 
-	private static void interateThroughStringList(List<String> stringList) {
+	private void interateThroughStringList(List<String> stringList) {
 		for (String string : stringList) {
 			System.out.println(string);
 		}
 	}
 	
-	private static void interateThroughStudentList(List<Student> studentList) {
+	private void interateThroughStudentList(List<Student> studentList) {
 		for (Student student : studentList) {
 			System.out.println(student);
 		}

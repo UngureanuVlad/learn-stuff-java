@@ -10,19 +10,24 @@ public class GenericsMain {
 
 	public static void main(String[] args) {
 
-		NonGenericsExample.ilustrateNonGenericsBehaviour();
+		NonGenericsExample nonGenericsExample = new NonGenericsExample();
+		nonGenericsExample.ilustrateNonGenericsBehaviour();
 		showLine();
 
-		GenericsTypeExample.ilustrateGenericType();
+		GenericsTypeExample genericsTypeExample = new GenericsTypeExample();
+		genericsTypeExample.ilustrateGenericType();
 		showLine();
 
-		GenericsMethodExample.ilustrateGenericMethod();
+		GenericsMethodExample genericsMethodExample = new GenericsMethodExample();
+		genericsMethodExample.ilustrateGenericMethod();
 		showLine();
 
-		GenericsClassExample.ilustrateGenericClass();
+		GenericsClassExample genericsClassExample = new GenericsClassExample();
+		genericsClassExample.ilustrateGenericClass();
 		showLine();
 
-		GenericsUpperBoundExample.illustrateUpperBounds();
+		GenericsUpperBoundExample genericsUpperBoundExample = new GenericsUpperBoundExample();
+		genericsUpperBoundExample.illustrateUpperBounds();
 		showLine();
 	}
 

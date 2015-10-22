@@ -5,7 +5,7 @@ import ro.learnstuff.generics.classes.GenericsType;
 public class GenericsTypeExample {
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	public static void ilustrateGenericType(){
+	public void ilustrateGenericType(){
 		GenericsType<String> type = new GenericsType<>();
         type.set("test");
         // not working - type safe to String

@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class SetExamples {
 
-	public static void illustrateSetExample() {
+	public void illustrateSetExample() {
 		Set<String> stringSet = new HashSet<>();
 		// We add a few elements
 		stringSet.add("A");

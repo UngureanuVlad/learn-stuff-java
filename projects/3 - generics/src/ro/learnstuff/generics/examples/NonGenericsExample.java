@@ -6,7 +6,7 @@ import java.util.List;
 public class NonGenericsExample {
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
-	public static void ilustrateNonGenericsBehaviour(){
+	public void ilustrateNonGenericsBehaviour(){
 		List rawList = new ArrayList();
 		rawList.add(new Integer(10));
 		rawList.add("a String"); // ok

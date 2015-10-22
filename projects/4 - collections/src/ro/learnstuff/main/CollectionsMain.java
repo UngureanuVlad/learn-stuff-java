@@ -9,17 +9,21 @@ public class CollectionsMain {
 
 	public static void main(String[] args) {
 
-		ListExamples.ilustrateArrayList();
-		ListExamples.ilustrateLinkedList();
+		ListExamples listExamples= new ListExamples();
+		listExamples.ilustrateArrayList();
+		listExamples.ilustrateLinkedList();
 		showLine();
 
-		MapExamples.illustrateMap();
+		MapExamples mapExamples = new MapExamples();
+		mapExamples.illustrateMap();
 		showLine();
 
-		SetExamples.illustrateSetExample();
+		SetExamples setExamples = new SetExamples();
+		setExamples.illustrateSetExample();
 		showLine();
 
-		TreeExamples.illustrateTreeSet();
+		TreeExamples treeExamples = new TreeExamples();
+		treeExamples.illustrateTreeSet();
 	}
 
 	// helper method

@@ -7,7 +7,7 @@ import ro.learnstuff.model.Student;
 
 public class MapExamples {
 
-	public static void illustrateMap(){
+	public void illustrateMap(){
 		Map<Integer, Student> map = new HashMap<>();
 		
 		map.put(new Integer(1), new Student("Ungureanu", "Vlad", 1));
@@ -22,7 +22,7 @@ public class MapExamples {
 		interateThroughtMap(map);
 	}
 	
-	private static void interateThroughtMap(Map<Integer, Student> map){
+	private void interateThroughtMap(Map<Integer, Student> map){
 		for (Map.Entry<Integer, Student> entry : map.entrySet())
 		{
 		    System.out.println(entry.getKey() + " / " + entry.getValue());

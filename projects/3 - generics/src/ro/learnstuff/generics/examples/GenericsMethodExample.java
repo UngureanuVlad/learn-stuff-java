@@ -5,7 +5,7 @@ import ro.learnstuff.generics.classes.GenericsType;
 
 public class GenericsMethodExample {
 
-	public static void ilustrateGenericMethod() {
+	public void ilustrateGenericMethod() {
 		GenericsType<String> g1 = new GenericsType<>();
 		g1.set("test");
 
