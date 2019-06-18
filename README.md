@@ -1,2 +1,2 @@
 # learn-stuff-java
-LearnStuff.io repository for Java courses.
+LearnStuff.io code sample repository for Java courses.
