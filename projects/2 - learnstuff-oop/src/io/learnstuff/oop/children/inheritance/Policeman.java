@@ -25,7 +25,7 @@ public class Policeman extends Person {
 
   public void interogate() {
     System.out.println("Interogate.");
-  }z
+  }
   
   public void arrest() {
     System.out.println("Arrest.");
