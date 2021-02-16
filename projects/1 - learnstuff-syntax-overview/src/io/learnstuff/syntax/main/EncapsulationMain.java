@@ -9,7 +9,7 @@ public class EncapsulationMain {
     EncapsulationExample encapsulationExample = new EncapsulationExample();
     encapsulationExample.setX(1);
     encapsulationExample.setY(2);
-    System.out.println("the encapsulate values are: " + encapsulationExample.getX() + " and "
+    System.out.println("the encapsulated values are: " + encapsulationExample.getX() + " and "
         + encapsulationExample.getY());
 
     // not permitted
