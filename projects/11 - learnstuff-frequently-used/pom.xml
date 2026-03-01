@@ -9,7 +9,7 @@
 	<properties>
 		<java.version>21</java.version>
 		<maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
-		<jackson.version>2.19.0</jackson.version>
+		<jackson.version>2.21.1</jackson.version>
 		<jaxb-api.version>2.3.1</jaxb-api.version>
 		<jaxb-runtime.veersion>4.0.5</jaxb-runtime.veersion>
 		<apache-poi.version>5.4.0</apache-poi.version>
